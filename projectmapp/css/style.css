@@ -1,0 +1,156 @@
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: black solid;
+    margin: auto;
+    padding: 20px;
+}
+
+.letters{
+    display: flex;
+    flex-direction: row;
+    border: black solid;
+    padding: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    border: black solid;
+    padding: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
+
+
+.number1{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number2{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number3{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number4{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number5{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number6{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number7{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number8{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.number9{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.number0{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.q{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.w{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.e{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.r{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.t{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.y{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.u{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.i{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.o{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.p{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.å{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
