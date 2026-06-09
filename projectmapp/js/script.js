@@ -1,10 +1,10 @@
-const aKey = document.querySelector(".a");
-
 document.addEventListener("keydown", (event) => {
 
-    if(event.key === "a"){
+    const key = document.querySelector("." + event.key);
 
-        aKey.style.backgroundColor = "red";
+    if(key){
+
+        key.style.backgroundColor = "red";
 
     }
 
@@ -12,12 +12,68 @@ document.addEventListener("keydown", (event) => {
 
 document.addEventListener("keyup", (event) => {
 
-    if(event.key === "a"){
+    const key = document.querySelector("." + event.key);
 
-        aKey.style.backgroundColor = "black";
+    if(key){
+
+        key.style.backgroundColor = "white";
 
     }
 
-    console.log
+});
+
+
+document.addEventListener("keydown", (event) => {
+
+    const number = document.querySelector(".number" + event.key);
+
+    if(number){
+
+        number.style.backgroundColor = "red";
+
+    }
 
 });
+
+document.addEventListener("keyup", (event) => {
+
+    const number = document.querySelector(".number" + event.key);
+
+    if(number){
+
+        number.style.backgroundColor = "white";
+
+    }
+
+// spacebar koden
+
+
+    document.addEventListener("keydown", (event) => {
+
+        if(event.key === " "){
+    
+            document.querySelector(".space").style.backgroundColor = "red";
+    
+        }
+    
+    });
+    
+    document.addEventListener("keyup", (event) => {
+    
+        if(event.key === " "){
+    
+            document.querySelector(".space").style.backgroundColor = "white";
+    
+        }
+    
+    });
+
+});
+
+
+
+    document.addEventListener("keydown", (event) => {
+
+        console.log(event.key);
+    
+    });
