@@ -9,24 +9,14 @@
 
 .letters{
     display: flex;
-    flex-direction: row;
     border: black solid;
     padding: 150px;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: xx-large;
+    gap: 20px;
+    justify-content: center;
 }
-
-.row2{
-    display: flex;
-    flex-direction: row;
-    border: black solid;
-    padding: 150px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: xx-large;
-}
-
 
 .number1{
     border: black solid;
@@ -150,6 +140,121 @@
 }
 
 .å{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.row1,
+.row2,
+.row3{
+    display: flex;
+    gap: 20px;
+}
+
+.a{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.s{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.d{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.f{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.g{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.h{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.j{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.k{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.l{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.ö{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.ä{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.z{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.x{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.c{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.v{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.b{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.n{
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.m{
     border: black solid;
     padding: 10px;
     margin: 5px;
